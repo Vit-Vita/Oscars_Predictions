@@ -6,12 +6,29 @@ As Student B, I was tasked with scraping critics' reviews for films that won the
 
 We ultimately analysed this data to try to better understand what criteria are used to choose an Oscar winner from amongst the nominees.
 
-The contents are organized as follows:
-1. "Code" folder:
+
+Programming Languages and Libraries : Python 3, Pandas, Matplotlib, RegEx, pickle, NLTK, Scikit-Learn, matplotlib.pyplot
+
+Web scraping tools: BeautifulSoup, Selenium, ChromeDriver, Requests
+
+Database and storage : MariaDB, SQLAlchemy, SWITCH Drive
+
+Additional tools: Jupyter Notebook, API Requests, Linux Virtual Machine
+
+
+The contents of the repository are organized as follows:
+"Code" folder:
+
    a. CIP_Rottentomatoes_COMMENTED_FULL_VERSION which contains the full Python code (parts 1, 2 and 3 below) with detailed comments
+   
    b. CIP_Rottentomatoes_part_1_scraping_and_cleaning which contains only the code for scraping and cleaning the data 
+   
    c. CIP_Rottentomatoes_part_2_enrichment which enriches the data with further calculations and information
+   
    d. CIP_Rottentomatoes_part_3_upload which contains code for uploading the cleaned and enriched data to a database (MariaDB)
+   
    e. "Data" folder to be able to run the code
 
-The resulting data is not contained in the repository because the files were too big.
+   f. CIP_Group_Work_Analysis which shows the code used for answering some of the questions of the final group report
+
+The resulting data is not contained in the repository because of the size of the files. The cleaned and enriched data from Students A and C were merged using the movie titles as the merging key. For Student B’s data, aggregation and pivoting was performed to consolidate each row representing one critic review, into one row per movie encapsulating all critic reviews. It was then also merged using the movie title.
