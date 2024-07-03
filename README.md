@@ -34,8 +34,8 @@ Additional tools: Jupyter Notebook, API Requests, Linux Virtual Machine
 
 ### 2. "Data" folder:
 
-    a. Stage 1 data resulting from the extraction. This is the metadata of the movies and their reviews as they were extracted
+   a. Stage 1 data resulting from the extraction. This is the metadata of the movies and their reviews as they were extracted
     
-    b. Stage 3 data which contains the final version of the data ready to be used for analysis after cleaning and enrichment
+   b. Stage 3 data which contains the final version of the data ready to be used for analysis after cleaning and enrichment
 
 The resulting data is not contained in the repository because of the size of the files. The cleaned and enriched data from Students A and C were merged using the movie titles as the merging key. For Student B’s data, aggregation and pivoting was performed to consolidate each row representing one critic review, into one row per movie encapsulating all critic reviews. It was then also merged using the movie title.
