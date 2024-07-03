@@ -17,6 +17,7 @@ Additional tools: Jupyter Notebook, API Requests, Linux Virtual Machine
 
 
 The contents of the repository are organized as follows:
+
 "Code" folder:
 
    a. CIP_Rottentomatoes_COMMENTED_FULL_VERSION which contains the full Python code (parts 1, 2 and 3 below) with detailed comments
